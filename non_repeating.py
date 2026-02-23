@@ -1,14 +1,14 @@
 def first_non_repeating(arr):
     frequency = {}
 
-    # Count frequency of each element
+    
     for num in arr:
         if num in frequency:
             frequency[num] += 1
         else:
             frequency[num] = 1
 
-    # Find first element with frequency 1
+    
     for num in arr:
         if frequency[num] == 1:
             return num
