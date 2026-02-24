@@ -1,4 +1,4 @@
-def first_non_repeating(arr):
+ def first_non_repeating(arr):
     frequency = {}
 
     
